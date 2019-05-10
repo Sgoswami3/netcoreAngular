@@ -1,10 +1,10 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{4465C1AD-3074-4064-B35C-AEDD2011C7AE}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="DatingApp.API Status">
     <Files>
-      <File FileName="Controllers/AuthController.cs" Line="1" Column="1" />
+      <File FileName="Controllers/AuthController.cs" Line="18" Column="2" />
       <File FileName="Controllers/ValuesController.cs" Line="16" Column="6" />
       <File FileName="Data/AuthRepository.cs" Line="35" Column="25" />
-      <File FileName="Startup.cs" Line="64" Column="31" />
+      <File FileName="Startup.cs" Line="75" Column="22" />
       <File FileName="Dtos/UserForRegisterDto.cs" Line="8" Column="7" />
       <File FileName="Program.cs" Line="24" Column="2" />
       <File FileName="Dtos/UserForLoginDto.cs" Line="10" Column="2" />
@@ -12,6 +12,11 @@
       <File FileName="Data/IAuthRepository.cs" Line="19" Column="1" />
       <File FileName="Properties/launchSettings.json" Line="29" Column="4" />
       <File FileName="Helpers/Extensions.cs" Line="16" Column="1" />
+      <File FileName="Models/User.cs" Line="24" Column="1" />
+      <File FileName="Models/Photo.cs" Line="13" Column="23" />
+      <File FileName="Data/DataContext.cs" Line="18" Column="1" />
+      <File FileName="Migrations/DataContextModelSnapshot.cs" Line="1" Column="1" />
+      <File FileName="Migrations/20190510184848_ExtendeduserClass.cs" Line="91" Column="1" />
       <File FileName="DatingApp.API Status" />
     </Files>
     <Pads>
@@ -19,13 +24,13 @@
         <State name="__root__">
           <Node name="DatingApp.API" expanded="True">
             <Node name="DatingApp.API" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="AuthController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Data" expanded="True" />
               <Node name="Dtos" expanded="True" />
               <Node name="Helpers" expanded="True" />
-              <Node name="Migrations" expanded="True" />
+              <Node name="Migrations" expanded="True">
+                <Node name="20190510184848_ExtendeduserClass.cs" selected="True" />
+              </Node>
               <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
             </Node>

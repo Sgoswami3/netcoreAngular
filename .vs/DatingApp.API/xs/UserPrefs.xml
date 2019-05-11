@@ -1,22 +1,32 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{4465C1AD-3074-4064-B35C-AEDD2011C7AE}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="DatingApp.API Status">
     <Files>
-      <File FileName="Controllers/AuthController.cs" Line="18" Column="2" />
+      <File FileName="Controllers/AuthController.cs" Line="35" Column="10" />
       <File FileName="Controllers/ValuesController.cs" Line="16" Column="6" />
-      <File FileName="Data/AuthRepository.cs" Line="35" Column="25" />
-      <File FileName="Startup.cs" Line="75" Column="22" />
-      <File FileName="Dtos/UserForRegisterDto.cs" Line="8" Column="7" />
+      <File FileName="Data/AuthRepository.cs" Line="72" Column="6" />
+      <File FileName="Startup.cs" Line="42" Column="38" />
+      <File FileName="Dtos/UserForRegisterDto.cs" Line="16" Column="1" />
       <File FileName="Program.cs" Line="24" Column="2" />
       <File FileName="Dtos/UserForLoginDto.cs" Line="10" Column="2" />
       <File FileName="appsettings.json" Line="2" Column="15" />
       <File FileName="Data/IAuthRepository.cs" Line="19" Column="1" />
-      <File FileName="Properties/launchSettings.json" Line="29" Column="4" />
-      <File FileName="Helpers/Extensions.cs" Line="16" Column="1" />
-      <File FileName="Models/User.cs" Line="24" Column="1" />
-      <File FileName="Models/Photo.cs" Line="13" Column="23" />
+      <File FileName="Properties/launchSettings.json" Line="28" Column="6" />
+      <File FileName="Helpers/Extensions.cs" Line="21" Column="14" />
+      <File FileName="Models/User.cs" Line="16" Column="21" />
+      <File FileName="Models/Photo.cs" Line="7" Column="1" />
       <File FileName="Data/DataContext.cs" Line="18" Column="1" />
       <File FileName="Migrations/DataContextModelSnapshot.cs" Line="1" Column="1" />
       <File FileName="Migrations/20190510184848_ExtendeduserClass.cs" Line="91" Column="1" />
+      <File FileName="Data/UserSeedData.json" Line="108" Column="16" />
+      <File FileName="Data/Seed.cs" Line="28" Column="45" />
+      <File FileName="Data/IDatingRepository.cs" Line="16" Column="6" />
+      <File FileName="Data/DatingRepository.cs" Line="33" Column="1" />
+      <File FileName="Controllers/UsersController.cs" Line="34" Column="38" />
+      <File FileName="Dtos/UserForListDto.cs" Line="20" Column="1" />
+      <File FileName="Dtos/userForDetailedDto.cs" Line="25" Column="2" />
+      <File FileName="DatingApp.API.csproj" Line="13" Column="46" />
+      <File FileName="Helpers/AutoMapperProfiles.cs" Line="26" Column="42" />
+      <File FileName="Dtos/photosForDetailsDtos.cs" Line="13" Column="1" />
       <File FileName="DatingApp.API Status" />
     </Files>
     <Pads>
@@ -27,10 +37,10 @@
               <Node name="Controllers" expanded="True" />
               <Node name="Data" expanded="True" />
               <Node name="Dtos" expanded="True" />
-              <Node name="Helpers" expanded="True" />
-              <Node name="Migrations" expanded="True">
-                <Node name="20190510184848_ExtendeduserClass.cs" selected="True" />
+              <Node name="Helpers" expanded="True">
+                <Node name="AutoMapperProfiles.cs" selected="True" />
               </Node>
+              <Node name="Migrations" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
             </Node>

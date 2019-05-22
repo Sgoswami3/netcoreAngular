@@ -2,17 +2,17 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="DatingApp.API Status">
     <Files>
       <File FileName="Controllers/AuthController.cs" Line="35" Column="10" />
-      <File FileName="Controllers/ValuesController.cs" Line="16" Column="6" />
+      <File FileName="Controllers/ValuesController.cs" Line="49" Column="1" />
       <File FileName="Data/AuthRepository.cs" Line="72" Column="6" />
-      <File FileName="Startup.cs" Line="42" Column="38" />
+      <File FileName="Startup.cs" Line="54" Column="26" />
       <File FileName="Dtos/UserForRegisterDto.cs" Line="16" Column="1" />
-      <File FileName="Program.cs" Line="24" Column="2" />
+      <File FileName="Program.cs" Line="17" Column="1" />
       <File FileName="Dtos/UserForLoginDto.cs" Line="10" Column="2" />
       <File FileName="appsettings.json" Line="2" Column="15" />
       <File FileName="Data/IAuthRepository.cs" Line="19" Column="1" />
       <File FileName="Properties/launchSettings.json" Line="28" Column="6" />
       <File FileName="Helpers/Extensions.cs" Line="21" Column="14" />
-      <File FileName="Models/User.cs" Line="16" Column="21" />
+      <File FileName="Models/User.cs" Line="23" Column="30" />
       <File FileName="Models/Photo.cs" Line="7" Column="1" />
       <File FileName="Data/DataContext.cs" Line="18" Column="1" />
       <File FileName="Migrations/DataContextModelSnapshot.cs" Line="1" Column="1" />
@@ -20,13 +20,13 @@
       <File FileName="Data/UserSeedData.json" Line="108" Column="16" />
       <File FileName="Data/Seed.cs" Line="28" Column="45" />
       <File FileName="Data/IDatingRepository.cs" Line="16" Column="6" />
-      <File FileName="Data/DatingRepository.cs" Line="33" Column="1" />
-      <File FileName="Controllers/UsersController.cs" Line="34" Column="38" />
+      <File FileName="Controllers/UsersController.cs" Line="62" Column="1" />
       <File FileName="Dtos/UserForListDto.cs" Line="20" Column="1" />
       <File FileName="Dtos/userForDetailedDto.cs" Line="25" Column="2" />
       <File FileName="DatingApp.API.csproj" Line="13" Column="46" />
-      <File FileName="Helpers/AutoMapperProfiles.cs" Line="26" Column="42" />
+      <File FileName="Helpers/AutoMapperProfiles.cs" Line="28" Column="28" />
       <File FileName="Dtos/photosForDetailsDtos.cs" Line="13" Column="1" />
+      <File FileName="Dtos/userFromUpdateDto.cs" Line="17" Column="1" />
       <File FileName="DatingApp.API Status" />
     </Files>
     <Pads>
@@ -34,12 +34,12 @@
         <State name="__root__">
           <Node name="DatingApp.API" expanded="True">
             <Node name="DatingApp.API" expanded="True">
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="UsersController.cs" selected="True" />
+              </Node>
               <Node name="Data" expanded="True" />
               <Node name="Dtos" expanded="True" />
-              <Node name="Helpers" expanded="True">
-                <Node name="AutoMapperProfiles.cs" selected="True" />
-              </Node>
+              <Node name="Helpers" expanded="True" />
               <Node name="Migrations" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
@@ -47,13 +47,18 @@
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.DatingApp.API PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/sudeep/Angular/netcoreAngular/datingapp/DatingApp.API/Controllers/ValuesController.cs" relfile="Controllers/ValuesController.cs" line="49" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
